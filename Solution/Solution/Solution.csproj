@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Model\" />
+    <None Remove="Repos\" />
+    <None Remove="Repos\Interfaces\" />
+    <None Remove="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Model\" />
+    <Folder Include="Repos\" />
+    <Folder Include="Repos\Interfaces\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+</Project>
